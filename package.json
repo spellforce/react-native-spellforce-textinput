@@ -1,0 +1,29 @@
+{
+  "name": "react-native-spellforce-textinput"
+  "version": "0.0.1",
+  "description": "TextInput for react native",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-native",
+    "text input",
+    "textinput",
+    "textfield",
+    "animation",
+    "animated",
+    "ios",
+    "android"
+  ],
+  "main": "lib/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spellforce/react-native-spellforce-textinput.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spellforce/react-native-spellforce-textinput/issues"
+  },
+  "author": "<spellforcezx@gmail.com>",
+  "homepage": "https://github.com/spellforce/react-native-spellforce-textinput#readme"
+}
