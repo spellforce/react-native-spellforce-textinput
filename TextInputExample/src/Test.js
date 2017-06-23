@@ -20,6 +20,7 @@ import {
   Makiko,
   Sae,
   Fumi,
+  Sample,
 } from 'react-native-spellforce-textinput';
 
 export default class Test extends Component {
@@ -30,6 +31,27 @@ export default class Test extends Component {
         style={styles.container}
         contentContainerStyle={styles.content}
       >
+        <View style={[styles.card1, { backgroundColor: '#F9F7FF' }]}>
+          <Text style={styles.title}>Sample</Text>
+          <Sample
+              label={'Website'}
+              defaultValue={'Github'}
+              editable={false}
+          />
+          <Sample
+              style={styles.input}
+              label={'Number'}
+              labelStyle={{
+                  color: 'white',
+                  backgroundColor: '#fcb794',
+              }}
+              inputStyle={{
+                  color: 'white',
+                  backgroundColor: '#db8d67',
+              }}
+              keyboardType="numeric"
+          />
+        </View>
         <View style={[styles.card1, { backgroundColor: '#F9F7F6' }]}>
           <Text style={styles.title}>Kaede</Text>
           <Kaede
@@ -191,7 +213,6 @@ export default class Test extends Component {
             iconClass={FontAwesomeIcon}
             iconName={'phone'}
             iconColor={'#ddd'}
-            iconColor={'#f4d29a'}
             labelStyle={{ color: '#91627b' }}
             inputStyle={{ color: '#91627b' }}
           />
